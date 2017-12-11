@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="maven:maven-antlr-plugin:1.0" type="repository">
+    <properties maven-id="maven:maven-antlr-plugin:1.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/maven-antlr-plugin-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
