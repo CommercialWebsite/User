@@ -25,5 +25,4 @@ public class MongoConfig extends  AbstractMongoConfiguration {
     }
 
 }
-git commit src/* -m"uri"
 
