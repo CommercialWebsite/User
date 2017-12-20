@@ -1,5 +1,6 @@
 package com.user;
 
+        import com.mongodb.MongoClientURI;
         import org.springframework.context.annotation.Bean;
         import org.springframework.context.annotation.Configuration;
         import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
@@ -18,8 +19,11 @@ public class MongoConfig extends  AbstractMongoConfiguration {
     @Override
     @Bean
     public Mongo mongo() throws Exception {
-        return new MongoClient("mongodb://heroku_xfd4gndr:jv4kpn4tdr4923pbdi95k7h5aj@ds139446.mlab.com:39446/heroku_xfd4gndr");
+        MongoClientURI uri  = new MongoClientURI("mongodb://heroku_07nblqtz:ff08k99pomnicnmv69dtga0otb@ds249605.mlab.com:49605/heroku_07nblqtz");
+
+        return new MongoClient(uri);
     }
 
 }
+git commit src/* -m"uri"
 
